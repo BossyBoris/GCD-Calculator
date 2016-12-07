@@ -1,3 +1,7 @@
+## Author: Boris Chan
+## Date: 06/12/2016
+## Purpose: Storing previous history with read and write txt
+
 ## Generate history from data.txt
 readMe = open('data.txt','r')
 history = [i for i in readMe]
@@ -38,8 +42,7 @@ def GCD_Calculation():
         if input("Do you want to cacalculate again (Y/N): ").lower() != "y":
             continued = False
 
-
-
+## Main
 print("Welcome to GCD Calculator")
 while True:
     print("""

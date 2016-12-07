@@ -1,4 +1,7 @@
-## a crappy calculator
+## Author: Boris Chan
+## Date: 04/12/2016
+## Purpose: Using Eculid algorithm to find GCD
+
 def Get_Value(order):    
     while True:
         try:
