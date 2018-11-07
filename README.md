@@ -1,5 +1,5 @@
 # GCD-Calculator
 
-features:
+### Features:
 - euclid's algorithm
 - save calculation data in .txt file
