@@ -2,7 +2,7 @@
 ## Date: 04/12/2016
 ## Purpose: Using Eculid algorithm to find GCD
 
-def Get_Value(order):    
+def get_value(order):    
     while True:
         try:
             num = int(input("Enter %s number: " % order))
@@ -10,8 +10,8 @@ def Get_Value(order):
         except ValueError:
             print("Please enter a valid number ... ", end="")    
 
-x = Get_Value("first");
-y = Get_Value("second");
+x = get_value("first")
+y = get_value("second")
 
 while y != 0:
     a = x
